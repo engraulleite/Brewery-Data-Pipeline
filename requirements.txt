@@ -1,0 +1,6 @@
+pyspark==3.4.1
+delta-spark==2.4.0
+python-dateutil
+pytz==2023.3
+pytest==7.4.2
+requests==2.31.0
