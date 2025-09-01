@@ -33,18 +33,18 @@ The pipeline follows a classic ETL pattern orchestrated by Airflow. Each layer o
 Brewery-Data-Pipeline/
 ├── airflow/
 │   ├── dags/
-│   ├── static/
 │   └── config/webserver_config.py
-├── data/
-│   ├── bronze/
-│   ├── silver/
-│   └── gold/
+├── docker/
 ├── scripts/
 ├── src/
 ├── tests/
 ├── Dockerfile
+├── .dockerignore
+├── Makefile
+├── README.MD
 ├── docker-compose.yml
-└── Makefile
+├── requirements.txt
+└── spark-defaults.conf
 ```
 ## 📑Metadata and Versioning
 ### Delta Storage
